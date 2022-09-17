@@ -39,13 +39,15 @@ a {
 }
 
 .navbar a {
-    padding: 10px 7px;
+    padding: 5px 7px;
     color: white;
     font-size: 8px;
 }
 
 .navbar a:hover {
-    border-bottom: #28a745 2px solid;
+    background-color: #5b5d61;
+    opacity: 1;
+    transition: 1s;
 }
 
 .navbar ul {
@@ -167,11 +169,12 @@ a {
     align-items: flex-start;
     justify-content: start;
     width: 120px;
-    height: 100vh;
+    height: 300vh;
     position: fixed;
     top: 150px;
     left: -5px;
     padding: 0 10px;
+    z-index: 1;
 }
 
 .side-bar ul li {
@@ -223,6 +226,82 @@ a {
     flex: 5;
 }
 
+#rigid-structure svg {
+    position: absolute;
+    top: 28.5%;
+    left: 49.5%;
+}
+
+#impact-protection svg {
+    position: absolute;
+    top: 50.5%;
+    left: 30%;
+}
+
+#very-low-rollover-risk svg {
+    position: absolute;
+    top: 58.8%;
+    left: 52.8%;
+}
+
+#rigid-structure .text-container {
+    width: 20%;
+    border-left: black 2px solid;
+    height: 15%;
+    position: absolute;
+    color: black;
+    top: 13.7%;
+    left: 49.8%;
+}
+
+#impact-protection .text-container {
+    width: 20%;
+    border-left: black 2px solid;
+    height: 20%;
+    position: absolute;
+    color: black;
+    top: 30.8%;
+    left: 30.3%;
+}
+
+#very-low-rollover-risk .text-container {
+    width: 20%;
+    border-left: black 2px solid;
+    height: 20%;
+    position: absolute;
+    color: black;
+    top: 59.8%;
+    left: 53.1%;
+}
+
+#rigid-structure .text-container::after {
+    content: "Rigid Structure";
+    width: max-content;
+    font-size: 8px;
+    font-weight: normal;
+    padding-left: 5%;
+}
+
+#impact-protection .text-container::after {
+    content: "Impact Protection";
+    width: max-content;
+    font-size: 8px;
+    font-weight: normal;
+    padding-left: 5%;
+}
+
+#very-low-rollover-risk .text-container::after {
+    content: "Very Low Rollover Risk";
+    width: max-content;
+    height: max-content;
+    font-size: 8px;
+    font-weight: normal;
+    padding-left: 5%;
+    position: absolute;
+    text-align: end;
+    bottom: 0;
+}
+
 .safety-page .side-safety-data {
     flex: 1;
     display: flex;
@@ -238,8 +317,6 @@ a {
     margin-top: 10px;
 }
 
-.safety-page .side-safety-data .buttom-btn {
-}
 .safety-page .side-safety-data .buttom-btn ul {
     display: flex;
     justify-content: space-around;
