@@ -41,7 +41,7 @@ a {
 .navbar a {
     padding: 5px 7px;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .navbar a:hover {
@@ -61,7 +61,7 @@ a {
 /* Butten */
 .btn-primary {
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
     border: #000000 1.5px solid;
     padding: 4px 24px;
     background-color: inherit;
@@ -70,7 +70,7 @@ a {
 
 .btn-primary:hover {
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
     border: #000000 1.5px solid;
     padding: 4px 24px;
     background-color: black;
@@ -83,7 +83,7 @@ a {
     border: none;
     background: none;
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
     cursor: pointer;
     text-align: center;
 }
@@ -117,19 +117,19 @@ a {
     padding: 0 20px;
 }
 
-.hero .content h4 {
-    margin-top: 2.1rem;
+.hero .content h2 {
+    margin-top: 8rem;
     padding: 3rem 0 2.4rem 2.4rem;
 }
 
 .hero .content .firstPage-buttom-data a {
-    font-size: 14px;
+    font-size: 28px;
 }
 
 .hero .content .firstPage-buttom-data ul {
     width: 100%;
     display: flex;
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 50px;
     font-weight: 750;
 }
@@ -140,12 +140,12 @@ a {
 
 .hero .content .firstPage-buttom-data span {
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
 }
 
 .hero .content .firstPage-buttom-data button {
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
     border: hsl(0, 0%, 100%) 1.5px solid;
     padding: 4px 24px;
     background-color: inherit;
@@ -154,7 +154,7 @@ a {
 
 .hero .content .firstPage-buttom-data button:hover {
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
     border: hsl(0, 0%, 100%) 1.5px solid;
     padding: 4px 24px;
     background-color: white;
@@ -167,13 +167,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: space-between;
     width: 120px;
-    height: 300vh;
+    height: 19vh;
     position: fixed;
-    top: 150px;
+    top: 400px;
     left: -5px;
-    padding: 0 10px;
+    padding: 0px 10px;
     z-index: 1;
 }
 
@@ -183,7 +183,7 @@ a {
 
 .side-bar ul li a {
     padding: 10px 7px;
-    font-size: 6px;
+    font-size: 8px;
 }
 
 .side-bar ul li a::before {
@@ -192,7 +192,7 @@ a {
     top: 5px;
     left: 0;
     background-color: rgba(190, 190, 190, 0.315);
-    width: 1px;
+    width: 2px;
     height: 15px;
 }
 
@@ -277,7 +277,7 @@ a {
 #rigid-structure .text-container::after {
     content: "Rigid Structure";
     width: max-content;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: normal;
     padding-left: 5%;
 }
@@ -285,7 +285,7 @@ a {
 #impact-protection .text-container::after {
     content: "Impact Protection";
     width: max-content;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: normal;
     padding-left: 5%;
 }
@@ -294,7 +294,7 @@ a {
     content: "Very Low Rollover Risk";
     width: max-content;
     height: max-content;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: normal;
     padding-left: 5%;
     position: absolute;
@@ -310,7 +310,7 @@ a {
 }
 
 .safety-page .side-safety-data .top-data {
-    font-size: 8px;
+    font-size: 16px;
 }
 
 .safety-page .side-safety-data .top-data p {
@@ -351,25 +351,26 @@ a {
 .third-page .thirdPage-buttom-data ul {
     width: 100%;
     display: flex;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 750;
-    margin-right: 75px;
+    margin-right: 12px;
+    margin-bottom: 66px;
 }
 
 .third-page .thirdPage-buttom-data li {
     margin-left: 40px;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     height: 100px;
-    width: 135px;
+    width: 228px;
     text-align: center;
 }
 
 .third-page .thirdPage-buttom-data p {
     font-weight: normal;
-    font-size: 6px;
+    font-size: 10px;
     line-height: normal;
-    padding: 3px 0;
+    padding: 3px 0px;
 }
 
 .third-page .thirdPage-footer {
@@ -377,7 +378,7 @@ a {
     flex-direction: row;
     flex-basis: 100%;
     font-weight: normal;
-    font-size: 6px;
+    font-size: 12px;
     line-height: normal;
     padding: 3px 0;
     margin: 0px 0px;
@@ -400,11 +401,11 @@ a {
 
 .third-page .thirdPage-footer .left-side p span {
     font-weight: normal;
-    font-size: 8px;
+    font-size: 16px;
 }
 
 .third-page .thirdPage-footer .left-side ul {
-    width: 160px;
+    width: 235px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -414,6 +415,8 @@ a {
 
 .third-page .thirdPage-footer .left-side li {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .third-page .thirdPage-footer .right-side {
