@@ -310,16 +310,29 @@ a {
 }
 
 .safety-page .side-safety-data .top-data {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .safety-page .side-safety-data .top-data p {
+    margin-top: 20px;
+}
+
+.safety-page .side-safety-data .top-data span {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.safety-page .side-safety-data .top-data span.txt-bold {
+    font-size: 14px;
+    font-weight: 800;
     margin-top: 10px;
 }
 
 .safety-page .side-safety-data .buttom-btn ul {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 112px;
 }
 
 .safety-page .side-safety-data .buttom-btn ul li {
