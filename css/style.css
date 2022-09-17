@@ -56,6 +56,46 @@ a {
     margin-left: 118px;
 }
 
+/* Butten */
+.btn-primary {
+    font-weight: normal;
+    font-size: 6px;
+    border: #000000 1.5px solid;
+    padding: 4px 24px;
+    background-color: inherit;
+    color: rgb(0, 0, 0);
+}
+
+.btn-primary:hover {
+    font-weight: normal;
+    font-size: 6px;
+    border: #000000 1.5px solid;
+    padding: 4px 24px;
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-learn {
+    border: none;
+    background: none;
+    font-weight: normal;
+    font-size: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.svg-hover-dark:hover #circle-plus-btn {
+    fill: black;
+    transition: 0.5s;
+}
+
+.svg-hover-dark:hover #plus-btn {
+    fill: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
 /* Header */
 
 .hero {
@@ -99,6 +139,26 @@ a {
 .hero .content .firstPage-buttom-data span {
     font-weight: normal;
     font-size: 6px;
+}
+
+.hero .content .firstPage-buttom-data button {
+    font-weight: normal;
+    font-size: 6px;
+    border: hsl(0, 0%, 100%) 1.5px solid;
+    padding: 4px 24px;
+    background-color: inherit;
+    color: white;
+}
+
+.hero .content .firstPage-buttom-data button:hover {
+    font-weight: normal;
+    font-size: 6px;
+    border: hsl(0, 0%, 100%) 1.5px solid;
+    padding: 4px 24px;
+    background-color: white;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .side-bar {
@@ -180,6 +240,15 @@ a {
 
 .safety-page .side-safety-data .buttom-btn {
 }
+.safety-page .side-safety-data .buttom-btn ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.safety-page .side-safety-data .buttom-btn ul li {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* 3rd page */
 
@@ -187,12 +256,11 @@ a {
 }
 
 .third-page .third-page-container {
-    height: 100vh;
     display: flex;
     position: relative;
     flex-basis: 100%;
     background: url(../img/thirdPage.jpg) no-repeat center center/cover;
-    height: 97vh;
+    height: 80vh;
     justify-content: center;
     align-items: flex-end;
 }
@@ -236,6 +304,7 @@ a {
     line-height: normal;
     padding: 3px 0;
     justify-content: center;
+    height: 20vh;
 }
 
 .third-page .thirdPage-footer .left-side p {
