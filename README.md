@@ -1,6 +1,6 @@
 # Weekend2 Project: HTML/CSS Tesla Model 3 Clone
 
-This repository contains a static HTML/CSS clone of the Tesla Model 3 website (https://www.tesla.com/model3).</br> The project is designed for educational purposes and serves as a demonstration of modern HTML and CSS best practices. No JavaScript was used in the creation of this clone.
+This repository contains a static HTML/CSS clone of the Tesla Model 3 website (https://www.tesla.com/model3).</br> The project is designed for educational purposes and demonstrates modern HTML and CSS best practices.</br> No JavaScript was used in the creation of this clone.
 
 ## Demo
 [Tesla Model 3 Link](https://iridescent-chaja-d57d9c.netlify.app/)
