@@ -42,7 +42,7 @@ The project is organized into the following directories:
 - `css`: Contains the CSS files for styling the site.
 - `img`: Contains image files used throughout the site.
 - `index.html`: The main HTML file for the site.
-- `README.md`: This file, containing project information and instructions.
+- `README.md`: Contains project information and instructions.
 
 ## How to Use
 
